@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: sans-serif;
+}
+
 header{
   background-size: 130%;
   background-image: url(../img/jumbo.png);
@@ -58,6 +62,7 @@ img{
 }
 
 .button-small{
+  border: none;
   padding: 7px;
   border-radius: 20px;
   height: 29px;
@@ -89,12 +94,6 @@ img{
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-}
-
-.pink{
-}
-
-.sky{
 }
 
 .img-focus{
@@ -150,6 +149,10 @@ img{
 }
 
 .foot-pink{
+  justify-content: space-between;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
   font-size: 0.8em;
   margin-bottom: 20px;
   flex-grow: 2;
@@ -228,4 +231,8 @@ img{
 .button-dis{
   color: white;
   background-color: #8ea1e1;
+}
+
+.white i{
+  margin-right: 15px;
 }
