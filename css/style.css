@@ -58,8 +58,6 @@ img{
 }
 
 .button-small{
-  margin-right: 10px;
-  margin-top: 10px;
   padding: 7px;
   border-radius: 20px;
   height: 29px;
@@ -138,11 +136,10 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 426px;
 }
 
 .grow{
-  margin-top: 108px;
+  margin-top: 60px;
   width: 700px;
   display: flex;
 }
@@ -156,12 +153,21 @@ img{
   font-size: 0.8em;
   margin-bottom: 20px;
   flex-grow: 2;
-  height: 400px;
 }
 
 .foot-sky{
+  max-height: 180px;
   font-size: 0.8em;
-  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.foot-sky-big{
+  height: 360px;
+  font-size: 0.8em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -170,13 +176,14 @@ img{
 }
 
 .bot-footer{
+  border-top: 2px solid #2f3646;
   display: flex;
   justify-content: center;
   background-color: #23272a;
 }
 
 .footer-container{
-  background-color: #7fffd4;
+  background-color: #23272a;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -186,16 +193,11 @@ img{
 }
 
 .logo-footer{
-  background-color: #fdb0b4;
-  height: 20px;
-  width: 50px;
+
   display: flex; justify-content: center;
 }
 
 .button-footer{
-  background-color: #fdb0b4;
-  height: 20px;
-  width: 60px;
   display: flex;
   justify-content: center;
 }
