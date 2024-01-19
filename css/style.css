@@ -28,6 +28,14 @@ img{
   text-decoration: none;
 }
 
+.top-button{
+  margin: 16px;
+}
+
+.top-button-m{
+  margin: 15px;
+}
+
 .container-back{
   align-items: center;
   height: 65px;
@@ -116,6 +124,7 @@ img{
   background-color: #f6f6f6;
 }
 .stars{
+  padding: 7px 25px 5px 23px;
   margin-bottom: 10px;
   background-size: 300px;
   background-image: url(../img/stars.svg);
