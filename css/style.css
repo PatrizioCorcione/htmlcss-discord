@@ -138,6 +138,7 @@ img{
 }
 
 .grow{
+  margin-top: 108px;
   width: 700px;
   display: flex;
 }
@@ -151,13 +152,11 @@ img{
   margin-bottom: 20px;
   flex-grow: 2;
   height: 400px;
-  background-color: #f08080;
 }
 
 .foot-sky{
   margin-bottom: 20px;
   flex-grow: 1;
-  background-color: #20b2aa;
 }
 
 .bot-footer{
@@ -189,4 +188,11 @@ img{
   width: 60px;
   display: flex;
   justify-content: center;
+}
+
+.discord-color{
+  color: #4d5a86;
+}
+.white{
+  color: white;
 }
