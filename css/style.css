@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list-flex a{
+  text-decoration: none;
+}
+
+.container-back{
+  align-items: center;
+  height: 65px;
+  background-color: #add8e6;
+  justify-content: center;
+  display: flex;
+}
+
+.container-head{
+  padding: 11px;
+  background-color: #daa520;
+  height: 25px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-flex{
+  display: flex;
+}
+
+.container-head li{
+  list-style: none;
+  width: 35px;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 290px;
+  background-color: #00008b;
+}
+
+.hero-content{
+  background-color: #ee82ee;
+  width: 465px;
+  height: 250px;
+
+}.focus-content{
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.focus-content-gray{
+  background-color: #d3d3d3;
+  height: 250px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.pink{
+  width: 230px;
+  height: 228px;
+  background-color: #ffc0cb;
+}
+
+.sky{
+  width: 470px;
+  height: 228px;
+  background-color: #1e90ff;
+}
+
+.main-end{
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+.focus-end{
+  height: 460px;
+  width: 700px;
+  background-color: #228b22;
+}
+
+.top-footer{
+  background-color: #23272a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 426px;
+}
+
+.grow{
+  width: 700px;
+  display: flex;
+}
+
+.foot-pink{
+  margin-bottom: 20px;
+  flex-grow: 2;
+  height: 400px;
+  background-color: #f08080;
+}
+
+.foot-sky{
+  margin-bottom: 20px;
+  flex-grow: 1;
+  background-color: #20b2aa;
+}
+
+.bot-footer{
+  display: flex;
+  justify-content: center;
+  background-color: #23272a;
+}
+
+.footer-container{
+  background-color: #7fffd4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  height: 40px;
+
+}
+
+.logo-footer{
+  background-color: #fdb0b4;
+  height: 20px;
+  width: 50px;
+  display: flex; justify-content: center;
+}
+
+.button-footer{
+  background-color: #fdb0b4;
+  height: 20px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+}
